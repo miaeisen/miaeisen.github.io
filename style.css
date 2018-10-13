@@ -1,0 +1,321 @@
+body, html {
+    height: 100%;
+    line-height: 6px;
+    position: relative;
+}
+
+/*Settings for cover photo*/
+.cover {
+	background-image: url(img/kitchen.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: calc(100% + 100px);
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.color-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.6;
+	position: absolute;
+	left: 0;
+}
+
+.bg-nav {
+	transition: 750ms ease;
+	background-color: transparent;
+}
+
+.bg-nav.scrolled {
+	background-color: #353A3F;
+	/*background: linear-gradient(rgba(53,58,63,1), rgba(53,58,63,0));*/
+}
+
+.navbar-toggler {
+	border: 2px solid;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+    border-color: grey;
+    box-shadow: 0 0 10px grey;
+}
+
+.nav-item {
+	font-family: 'Work Sans';
+	font-weight: 100;
+	color: white !important;
+	font-size: 14px;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.nav-link:hover {
+	color: lightgrey !important;
+}
+
+.active {
+	font-weight: 500 !important;
+}
+
+
+.nav-font-special {
+	padding-bottom: 15px;
+}
+
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: calc(32px + (72 - 32) * ((100vw - 500px) / (2880 - 500)));
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: 'Work Sans';
+	font-weight: 300;
+	font-size: calc(12px + (28 - 12) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.black-heading-1 {
+	color: black;
+	font-size: calc(16px + (28 - 16) * ((100vw - 500px) / (2880 - 500)));
+}
+.black-heading-2 {
+	color:black;
+	font-size: calc(12px + (20 - 12) * ((100vw - 500px) / (2880 - 500)));
+}
+
+hr {
+	background-color: white;
+	size: 10px;
+	width: 950px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 7px;
+}
+
+#how-it-works {
+	background-color: white;
+	height: calc(900px);
+}
+
+.chef-hat {
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.timer {
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.growth {
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+#become-a-partner {
+	background-image: url(img/kitchen.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: calc(1300px);
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.form-container {
+	width: 85%;
+	max-width: 900px;
+	height: 80%;
+	display: block;
+	margin: auto;
+	background-color: #000;
+	opacity: .9;
+	padding: 25px 25px;
+	border-radius: 20px;
+}
+
+.h1-form {
+	font-size: calc(18px + (44 - 18) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.h2-form {
+	font-size: calc(12px + (20 - 12) * ((100vw - 500px) / (2880 - 500)));
+	padding: 15px 50px;
+}
+
+.form-control {
+	font-family: 'Work Sans';
+	font-weight: 300;
+	font-size: calc(12px + (20 - 12) * ((100vw - 500px) / (2880 - 500)));
+	margin-top: 5px;
+}
+
+.form-row {
+	margin: 30px 15px;
+}
+
+.form-label {
+	color: white;
+	font-family: 'Work Sans';
+	font-weight: 300;
+	font-size: calc(12px + (20 - 12) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.form-label-2 {
+	color: white;
+	font-family: 'Work Sans';
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.format-special-terms {
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	max-width: 400px;
+}
+
+/*Link formatting begins*/
+.link-format:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: underline;
+}
+
+.link-format:visited {
+    color: #d089ed;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link-format:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link-format:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link-format-footer:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: underline;
+    font-size: font-size: calc(12px + (14 - 12) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.link-format-footer:visited {
+    color: #d089ed;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link-format-footer:hover {
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link-format-footer:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*Link formatting ends*/
+
+.form-submit {
+	display: block;
+	margin: auto;
+	font-size: calc(14px + (32 - 14) * ((100vw - 500px) / (2880 - 500)));
+	margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.btn-primary {
+	font-family: 'Work Sans';
+	font-weight: 500;
+	font-size: calc(16px + (32 - 16) * ((100vw - 500px) / (2880 - 500)));
+	background-color: #4EB1CE;
+	border-color: #4EB1CE;
+	border-radius: 15px;
+}
+.btn-primary:hover {
+	background-color: #388093;
+	border-color: #388093;
+}
+
+.btn-outline-light {
+	font-family: 'Work Sans';
+	font-weight: 500;
+	border-radius: 15px;
+}
+.btn-outline-light:hover {
+	border-color: white;
+	background-color: rgba(255, 255, 255, .2);
+	color: white;
+}
+
+.footer-top {
+	height: 25%;
+	background: #E7E7E8;
+}
+
+.footer-bottom {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+}
+
+.format-footer {
+	font-size: calc(11px + (14 - 11) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.footer-img {
+	margin: 0px -10px;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #000;
+  opacity: .5;
+}
+
