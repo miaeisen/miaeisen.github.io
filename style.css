@@ -25,6 +25,10 @@ body, html {
 	left: 0;
 }
 
+.bg-nav-2 {
+	background-color: #353A3F;
+}
+
 .bg-nav {
 	transition: 750ms ease;
 	background-color: transparent;
@@ -64,11 +68,9 @@ body, html {
 	font-weight: 500 !important;
 }
 
-
 .nav-font-special {
 	padding-bottom: 15px;
 }
-
 
 h1 {
 	text-align: center;
@@ -92,6 +94,10 @@ h2 {
 .black-heading-2 {
 	color:black;
 	font-size: calc(12px + (20 - 12) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.agreement-heading {
+	color:black;
 }
 
 hr {
@@ -317,5 +323,56 @@ hr {
 #myBtn:hover {
   background-color: #000;
   opacity: .5;
+}
+
+#agreement-container-1 {
+	background-color: lightgrey;
+}
+
+#agreement-container-2 {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 130px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+.agreement-heading {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: calc(28px + (42 - 28) * ((100vw - 500px) / (2880 - 500)));
+	text-align: left;
+}
+
+.agreement-heading-2 {
+	color: black;
+	font-size: calc(16px + (28 - 16) * ((100vw - 500px) / (2880 - 500)));
+	text-align: left;
+}
+.agreement-text {
+	color:black;
+	font-size: calc(11px + (18 - 11) * ((100vw - 500px) / (2880 - 500)));
+	text-align: left;
+}
+
+.agreement-date {
+	color: black;
+	font-style: bold;
+	font-size: calc(11px + (18 - 11) * ((100vw - 500px) / (2880 - 500)));
+	font-weight: 500;
+	align-self: flex-end;
+	text-align: right;
+}
+
+.agreement-hr {
+	height: 1px;
+	width: 100%;
+	background-color: lightgrey;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
