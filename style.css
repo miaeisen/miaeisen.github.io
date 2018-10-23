@@ -20,7 +20,7 @@ body, html {
 	width: 100%;
 	height: 100%;
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.55;
 	position: absolute;
 	left: 0;
 }
@@ -172,7 +172,17 @@ hr {
 	margin-top: 5px;
 }
 
+.form-control:focus {
+	outline: none;
+    border-color: #C3362E;
+    box-shadow: 0 0 10px #C3362E;
+}
+
 .form-row {
+	margin: 30px 15px;
+}
+
+.form-group {
 	margin: 30px 15px;
 }
 
@@ -297,7 +307,7 @@ hr {
 }
 
 .format-footer {
-	font-size: calc(11px + (14 - 11) * ((100vw - 500px) / (2880 - 500)));
+	font-size: calc(10px + (14 - 10) * ((100vw - 500px) / (2880 - 500)));
 }
 
 .footer-img {
@@ -351,6 +361,7 @@ hr {
 	color: black;
 	font-size: calc(16px + (28 - 16) * ((100vw - 500px) / (2880 - 500)));
 	text-align: left;
+	font-family: 'Montserrat', sans-serif;
 }
 .agreement-text {
 	color:black;
@@ -374,5 +385,77 @@ hr {
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 10px;
+}
+
+#faq {
+	background-color: lightgrey;
+}
+
+#faq-container {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 130px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+.faq-heading {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: calc(20px + (48 - 20) * ((100vw - 500px) / (2880 - 500)));
+	align-self: center;
+}
+
+.btn-faq {
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border-style: none;
+	border-top: 1px solid lightgrey;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 1.5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: calc(14px + (28 - 14) * ((100vw - 500px) / (2880 - 500)));
+}
+
+.btn-faq:hover {
+	background-color: #E7E7E8;
+}
+.btn-faq:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.no-top-border {
+	border-top: none;
+}
+
+.faq1 {
+	height: 100px;
+}
+
+.bottom-border {
+	border-bottom: 1px solid lightgrey;
+}
+
+.faq-content {
+	color:black;
+	font-size: calc(12px + (22 - 12) * ((100vw - 500px) / (2880 - 500)));
+	text-align: left;
+	font-family: 'Work Sans';
+	font-weight: 300;
+	height: auto;
+	line-height: 1.5em;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 

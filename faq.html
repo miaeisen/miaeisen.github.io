@@ -21,7 +21,7 @@
     <!-- CSS override sheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Offpeak Deals for Restaurants | Home</title>
+    <title>FAQ - Get Offpeak Deals</title>
   </head>
 
 <body data-spy="scroll" data-target="#navbarNavAltMarkup">
@@ -30,9 +30,9 @@
   <a role="button" href="#" id="myBtn" title="Go to top"><img src="img/up.png"width="16" height="22"></button></a>
 
 <!-- Navbar begins -->
-	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-nav">
+	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-nav-2">
 	  <a class="navbar-brand" href="index.html">
-	  	<img src="img/logo2.png" width="85" height="85" class="d-none d-sm-block" alt="Offpeak Deals">
+	  	<img src="img/logo2.png" width="85" height="85" alt="Offpeak Deals">
 	  </a>
 	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
@@ -40,9 +40,9 @@
 	  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
 	      <!-- <a class="nav-item px-4 nav-link active" href="#">HOME<span class="sr-only">(current)</span></a> -->
-	      <a class="nav-item nav-link" href="#how-it-works">HOW IT WORKS</a>
+	      <a class="nav-item nav-link" href="index.html#how-it-works">HOW IT WORKS</a>
 	      <a class="nav-item nav-link" href="#become-a-partner">BECOME A PARTNER</a>
-	      <a class="nav-item nav-link" href="faq.html">FAQ</a>
+	      <a class="nav-item nav-link" href="#faq">FAQ</a>
 	      <a class="nav-item nav-link nav-font-special" href="mailto:support@offpeak.deals">CONTACT US</a>
 	      <!-- <a class="btn btn-small btn-outline-light" href="#" role="button">REQUEST MORE INFO</a> -->
 	    </div>
@@ -50,67 +50,86 @@
 	</nav>
 <!-- Navbar ends -->
 
-<!-- Cover container begins -->
-	<div class="container-fluid cover">
-	<!-- .cover is my class that sets the background cover photo -->
-		<div class="color-overlay"></div>
-		  	<div class="container">
-			  	<div class="row align-items-center justify-content-center"> 
-			  		<!-- column 1 -->
-			   		<div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-			      		<h1>Offpeak Deals</h1>
-			      		<h2>A mobile app that incentivizes customers to dine-in at your restaurant during your slowest hours of the day.
-			      			<br><br>
-						Use our software for FREE, to partner with us in developing an industry-changing product.</h2>
-						<br><br>
-						<a href="#become-a-partner" role="button" class="btn btn-primary btn-lg btn-block">BECOME A PARTNER</a>
-						 <!-- <button type="button" class="btn btn-outline-light">REQUEST MORE INFO</button> -->
-			    	</div>
-			    	<!-- column 2 -->
-			    	<div class="col d-none d-md-block d-xl-block col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-			    		<img src="img/mockup1.png" class="w-100 animated fadeInRight delay-2s">
-			    	</div>
-			    </div>
-			</div>
-	</div>
-<!-- Cover container ends -->
+<!-- FAQ container begins -->
+	<div class="container-fluid" id="faq">
+		<div class="container" id="faq-container">
+			<h1 class="faq-heading">Frequently Asked Questions</h1>
+		<hr class="agreement-hr">
+		<br>
+		<br>
+		<br>
+	<!-- Q 1 -->
+			<button class="btn-faq no-top-border agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq1" aria-expanded="false" aria-controls="faq1">
+    		What is Offpeak Deals?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq1">
+	  				<div class="faq-content">
+	    			Offpeak Deals is a mobile app through which restaurants can incentivize customers to dine-in during the slowest hours of the day, by offering time-dependent, percentage-based dining discounts. By offering deals through OffPeak, your restaurant instantly gains free marketing and exposure to thousands of hungry customers on our platform. 
+	  				</div>
+				</div>
+	<!-- Q 2 -->
+			<button class="btn-faq agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq2" aria-expanded="false" aria-controls="faq2">
+    		How does Offpeak actually work?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq2">
+	  				<div class="faq-content">
+	    			Through the Offpeak Deals Merchant app, built for you, our restaurant partners, you can set and customize a profile for your restaurant, set, customize, and activate percentage-based dining discount offers for specific time frames, and view live data on how customers are using the deals you have set.
+	    			<br>
+					On the public-facing app, customers can view all active deals in their geographic area. Customers can then “grab” a deal, and will have 30 minutes to come in to your restaurant and use the deal.
+	  				</div>
+				</div>
 
+		<!-- Q 3 -->
+			<button class="btn-faq agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq3" aria-expanded="false" aria-controls="faq3">
+    		Does Offpeak require any additional hardware / technology?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq3">
+	  				<div class="faq-content">
+	    			Nope, no extra hardware or technology necessary. We know the last thing you want is another tablet.
+	  				</div>
+				</div>
 
-<!-- How it works container begins -->
-	<div class="container-fluid d-flex flex-column justify-content-center" id="how-it-works">
-		<!-- Row 1 -->
-		<div class="row justify-content-center align-items-center my-4 mx-4">
-			 <!-- Column 1 -->
-			 <div class="col col-12 col-sm-8 col-md-6 col-lg-6 col-xl-6">
-			 	<h1 class="black-heading-1 mb-3">&middot HOW IT WORKS &middot</h1>
-			 	<br><br><br><br><br><br><br>
-			 	<h1 class="black-heading-1">No cost, no extra work, no additional hardware / technology.</h1>
-			 	<br>
-			 	<h2 class="black-heading-2">Offpeak Deals is a free promotion-setting mobile and web app for restaurants, that incentivizes customers to dine-in during your slowest hours of the day.</h2>
-			 </div>
-		</div>
-		<div class="row d-flex justify-content-center align-items-center mx-5">
-			 <!-- Column 1 -->
-			 <div class="col col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 mx-3">
-			 	<img src="img/chef-hat-icon.png" width="60" heigh="60" class="chef-hat">
-			 	<h1 class="black-heading-1">Build a Profile</h1>
-			 	<h2 class="black-heading-2">Set and customize a restaurant profile that will be seen by the thousands of hungry users on our platform. Hooray, free marketing!</h2>
-			 </div>
-			 <!-- Column 2 -->
-			 <div class="col col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 mx-3">
-			 	<img src="img/timer-icon.png" width="60" height="60" class="timer">
-			 	<h1 class="black-heading-1">Set Offers</h1>
-			 	<h2 class="black-heading-2">Set, customize, and activate percentage-based dining discount offers for specifc time frames (we'll also be happy to set them for you).</h2>
-			 </div>
-			 <!-- Column 3 -->
-			 <div class="col col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 mx-3">
-			 	<img src="img/growth-icon.png" width="60" height="60" class="growth">
-			 	<h1 class="black-heading-1">Track Growth</h1>
-			 	<h2 class="black-heading-2">View live data and weekly reports on how customers are using your offers. Track what deals and time slots bring the most business.</h2>
-			 </div>
+		<!-- Q 4 -->
+			<button class="btn-faq agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq4" aria-expanded="false" aria-controls="faq4">
+    		Is Offpeak really free for my restuarant to use?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq4">
+	  				<div class="faq-content">
+	    			Yes. Offpeak is currently a free software solution for restaurants. In exchange for using Offpeak for free, all we ask for is feedback. We value your expertise, and hope to use your feedback to improve our product.
+	  				</div>
+				</div>
+
+		<!-- Q 5 -->
+			<button class="btn-faq agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq5" aria-expanded="false" aria-controls="faq5">
+    		How does Offpeak make money if it doesn't cost anything?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq5">
+	  				<div class="faq-content">
+	    			Offpeak Deals is currently in beta testing, and is free while we gather feedback and refine our product.
+	  				</div>
+				</div>
+
+		<!-- Q 6 -->
+			<button class="btn-faq agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq6" aria-expanded="false" aria-controls="faq6">
+    		How do I get started?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq6">
+	  				<div class="faq-content">
+	    			Sign up to <a href="#become-a-partner">become a partner</a> here to use Offpeak free of cost.
+	  				</div>
+				</div>
+
+		<!-- Q 7 -->
+			<button class="btn-faq bottom-border agreement-heading-2" type="button" data-toggle="collapse" data-target="#faq7" aria-expanded="false" aria-controls="faq7">
+    		I have more questions. Who can I talk to?<img src="img/down.png" width="12" height="15">
+  			</button>
+				<div class="collapse" id="faq7">
+	  				<div class="faq-content">
+	    			If you'd like more info, <a href="mailto:support@offpeak.deals">send us an email</a> and we'll get back to you ASAP!
+	  				</div>
+				</div>
 		</div>
 	</div>
-<!-- How it works container ends -->
 
 
 <!-- Become a partner container begins -->
@@ -146,7 +165,7 @@
 						<label class="form-label">CONTACT PHONE*</label> 
 						<input name="Phone number" type="Tel" class="form-control" placeholder="(123)-456-7890" required>
 					</div>
-				<!-- Form row role -->
+				<!-- Form row 5 -->
 					<div class="form-group">
 					    <label class="form-label" for="exampleFormControlSelect1">RESTAURANT ROLE*</label>
 					    <select class="form-control" id="exampleFormControlSelect1">
@@ -198,7 +217,6 @@
 		</div>
 	</div>
 <!-- Become a parter container ends -->
-
 
 <!-- Footer begins -->
 
@@ -268,11 +286,11 @@
 	<!-- Button to top script ends -->
 
     <!-- Change navbar color on scroll -->
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
     	$(window).scroll(function(){
     		$('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
     	});
-    </script>
+    </script> -->
 
   </body>
 </html>
